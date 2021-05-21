@@ -6,7 +6,7 @@ body{
     text-align: center;
 }
 section{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(../Calculator/bg.gif);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(bg.gif);
     position: absolute;
     width: 100%;
     height: 100vh;
