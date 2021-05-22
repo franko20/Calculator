@@ -21,6 +21,12 @@ function solve()
     let x = document.getElementById("input").value;
     document.getElementById("input").value = eval(x);
     document.getElementById("result").value = eval(x);
+    
+    if(x == 0)
+    {
+        document.getElementById("input").value = "";
+        document.getElementById("result").value = "";
+    }
 }
 
 //clear the last value
