@@ -4,7 +4,7 @@ function dis(val)
 {
     document.getElementById("input").value += val;
     
-    if(val == "+" || val == "-" || val == "*" || val == "/" || val == "**")
+    if(val == "+" || val == "-" || val == "*" || val == "/" || val == "**(")
     {
         document.getElementById("result").value = " ";
     }
